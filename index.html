@@ -4,10 +4,13 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+    <script type="text/javascript" src="resources/json/postalcode.json"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-    <title></title>
+    <title>DOUGLAS - Beauty Booking</title>
   </head>
   <body>
+
     <!-- HERO CONTAINER -->
   <section class="hero is-white is-fullheight-with-navbar">
 
@@ -41,7 +44,7 @@
 
         </div>
         <div class="column is-12">
-            <h2 class="title is-1 hero-text">
+            <h2 class="title is-1 hero-text" style="  font-family: 'AvenirNext-UltraLight.ttf'; color: white;">
               Mehr als 8 Mio.<br/> loyale Kunden <br/>warten auf Sie
             </h2>
             <h3 class="subtitle is-6 hero-text" style="font-family: 'AvenirNext-Bold.ttf'; color: white;">
@@ -228,7 +231,7 @@
         </div>
         <div class="field has-addons">
           <div class="control has-icons-right fullwidth-plz">
-            <input class="input-bordered" type="text" placeholder="Ihre Postleitzahl" style="padding-left: 0;">
+            <input id="user_postalcode" class="input-bordered" type="text" placeholder="Ihre Postleitzahl" style="padding-left: 0;">
             <a class="icon is-right link-in-input" style="color: black; font-size: 12px; width: 12em;">
               JETZT UBERPRUFEN
             </a>
@@ -438,6 +441,31 @@
     </div>
   </section>
 
+  <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <img src="./resources/loyalty_card_scanner_image_b.jpg" class="image_of_modal" style="width: 128px; height: 128px;"/>
+      <span>
+        <h2 class="title">Gluckwunsh!</h2>
+        <p class="subtitle">In Ihrer Nachbarschaft gibt es ca.</p>
+        <span ></span><p id='modal-text'>Douglas Loyalty Card Nutzer</p>
+      </span>
+
+    </div>
+
+  </div>
+  <script src="app.js" charset="utf-8"></script>
+
+
+  <script>
+
+  </script>
+
+
+
 
   </body>
+
 </html>

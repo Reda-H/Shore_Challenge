@@ -1,4 +1,4 @@
-[
+var postalcodes = [
 	{
 		"pc": "10115",
 		"value": "27140"
