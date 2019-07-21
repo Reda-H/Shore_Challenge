@@ -1,0 +1,59 @@
+@import "resources/fonts/ZahrahforDouglas/ZahrahforDouglas-MediumIt.ttf";
+@import "resources/fonts/ZahrahforDouglas/ZahrahforDouglas-Regular.ttf";
+@import "resources/fonts/ZahrahforDouglas/ZahrahforDouglas-SemiboldIt.ttf";
+
+@import "resources/fonts/AvenirNext/AvenirNext-Bold.ttf";
+@import "resources/fonts/AvenirNext/AvenirNext-DemiBold.ttf";
+@import "resources/fonts/AvenirNext/AvenirNext-Regular.ttf";
+@import "resources/fonts/AvenirNext/AvenirNext-UltraLight.ttf";
+
+body {
+  background-color: rgb(246, 247, 248);
+}
+
+.has-bg-img {
+  background: url('resources/hero_desktop.jpg');
+  background-size:cover;
+  background-position: center center;
+  background-color: rgb(246, 247, 248);
+}
+
+.has-bg-img-2 {
+  background-image: url('resources/map.jpg');
+  background-size: 110% auto;
+  background-repeat: no-repeat;
+  background-position: 0 58%;
+  background-color: rgb(246, 247, 248);
+}
+
+.has-bg-color {
+  background-color: rgb(246, 247, 248);
+  margin-top: 16em;
+}
+
+.box-width-height {
+  border-radius: 0;
+  height: 250px;
+}
+
+.fullwidth-plz {
+  padding-left: 80px;
+  width: 100%;
+}
+
+.link-in-input {
+  margin-right: 7em;
+}
+
+.input-bordered {
+  outline: none;
+  width: 80%;
+  border: none;
+  border-bottom-width: 5px;
+  border-bottom: 1px solid black;
+  padding: 10px 10px;
+}
+
+.logo-container {
+  right: 30%;
+}
